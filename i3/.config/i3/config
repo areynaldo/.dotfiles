@@ -215,3 +215,8 @@ client.focused_inactive $in-bgcolor     $in-bgcolor     $in-text        $in-bgco
 client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcolor 
 
 bindsym $mod+space exec --no-startup-id dmenu_run -i -nb '$in-bgcolor' -nf '$in-text' -sb '$bgcolor' -sf '$text' -fn 'JetBrainsMono Nerd Font'
+
+exec_always picom --fade-in-step=1 --fade-out-step=1 --fade-delta=0 --no-fading-openclose
+
+exec_always feh --bg-fill "/home/areynaldo/Downloads/dithered-image(3).png"
+
